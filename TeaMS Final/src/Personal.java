@@ -244,6 +244,11 @@ public class Personal extends javax.swing.JFrame {
         jPanel4.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 160, 40));
 
         jButton9.setText("Employment History");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
         jPanel4.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 300, 160, 40));
 
         jButton7.setText("Personal Information");
@@ -343,6 +348,10 @@ public class Personal extends javax.swing.JFrame {
         new Dashboard().setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton9ActionPerformed
 
     /**
      * @param args the command line arguments
